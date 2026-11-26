@@ -1,0 +1,23 @@
+[project]
+name = "rag-mm-ag"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ipykernel>=7.4.0",
+    "langchain-core>=1.8.5",
+    "langchain-ollama>=1.2.0",
+    "langchain-text-splitters>=1.2.0",
+    "langgraph>=1.2.24",
+    "matplotlib>=3.11.2",
+    "open-clip-torch>=4.2.2",
+    "pillow>=13.0.0",
+    "pymupdf>=2.2",
+    "torch>=2.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
+]
